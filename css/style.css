@@ -1,0 +1,67 @@
+/* slider show */
+.animate {
+  transition: transform 0.3s ease-out;
+}
+.slider-wrap {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ms-touch.slider {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  
+  -ms-overflow-style: none;
+  /* Hides the scrollbar. */
+  
+  -ms-scroll-chaining: none;
+  /* Prevents Metro from swiping to the next tab or app. */
+  
+  -ms-scroll-snap-type: mandatory;
+  /* Forces a snap scroll behavior on your images. */
+  
+  -ms-scroll-snap-points-x: snapInterval(0%, 100%);
+  /* Defines the y and x intervals to snap to when scrolling. */
+}
+
+.holder {
+  overflow-y: hidden;
+    margin-bottom: 15px;
+}
+
+.slide-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.slide {
+  position: relative;
+}
+
+.temp {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 100px;
+  bottom: 15px;
+  left: 15px;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+}
+
+.slide img {
+  z-index: 0;
+  width: 100%;
+}
+
+
+.slide div {
+  z-index: 0;
+}
