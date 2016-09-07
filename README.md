@@ -19,3 +19,4 @@ Installation
 1. Open file js/app.js and then looking for line 3 "var images", here's config your images
 
 var images = ...
+== first commit ==
